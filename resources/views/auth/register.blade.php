@@ -29,7 +29,6 @@
     </div><!-- logo -->
 
     <div class="simple-page-form animated flipInY" id="signup-form">
-    <h1 class="text-center"> <strong><em>SIPRESCO</em></strong></h1>
         <h4 class="form-title m-b-xl text-center">Sign Up For a new Account</h4>
         <form class="form-horizontal" method="POST" action="{{ route('register') }}">
             {{ csrf_field() }}

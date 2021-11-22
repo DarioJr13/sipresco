@@ -24,7 +24,6 @@
 {{--                <span><img src="{{asset('assets/images/zeus-logo.png')}}" alt=""></span>--}}
 {{--            </a>--}}
 {{--        </div><!-- logo -->--}}
-<h1 class="text-center"> <strong><em>SIPRESCO</em></strong></h1>
         <h4 class="form-title m-b-xl text-center">Iniciar Sesion</h4>
         <div class="panel-body">
             <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -94,7 +93,6 @@
 
     <div class="simple-page-footer">
         <p><a href="{{ route('password.request') }}">¿Olvidaste tu contraseña?</a></p>
-         <h5><p class="text-white bg-blue">Pragrammed by: Darío Esquina</p></h5>
     </div><!-- .simple-page-footer -->
 
 
